@@ -1,0 +1,1425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cmb_deviceID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="cmb_deviceID.Items" xml:space="preserve">
+    <value> 1-1_1</value>
+  </data>
+  <data name="cmb_deviceID.Items1" xml:space="preserve">
+    <value> 1-1_2</value>
+  </data>
+  <data name="cmb_deviceID.Items2" xml:space="preserve">
+    <value> 1-1_3</value>
+  </data>
+  <data name="cmb_deviceID.Items3" xml:space="preserve">
+    <value> 1-1_4</value>
+  </data>
+  <data name="cmb_deviceID.Items4" xml:space="preserve">
+    <value> 1-2_1</value>
+  </data>
+  <data name="cmb_deviceID.Items5" xml:space="preserve">
+    <value> 1-2_2</value>
+  </data>
+  <data name="cmb_deviceID.Items6" xml:space="preserve">
+    <value> 1-2_3</value>
+  </data>
+  <data name="cmb_deviceID.Items7" xml:space="preserve">
+    <value> 1-2_4</value>
+  </data>
+  <data name="cmb_deviceID.Items8" xml:space="preserve">
+    <value> 2-1_1</value>
+  </data>
+  <data name="cmb_deviceID.Items9" xml:space="preserve">
+    <value> 2-1_2</value>
+  </data>
+  <data name="cmb_deviceID.Items10" xml:space="preserve">
+    <value> 2-1_3</value>
+  </data>
+  <data name="cmb_deviceID.Items11" xml:space="preserve">
+    <value> 2-1_4</value>
+  </data>
+  <data name="cmb_deviceID.Items12" xml:space="preserve">
+    <value> 2-2_1</value>
+  </data>
+  <data name="cmb_deviceID.Items13" xml:space="preserve">
+    <value> 2-2_2</value>
+  </data>
+  <data name="cmb_deviceID.Items14" xml:space="preserve">
+    <value> 2-2_3</value>
+  </data>
+  <data name="cmb_deviceID.Items15" xml:space="preserve">
+    <value> 2-2_4</value>
+  </data>
+  <data name="cmb_deviceID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 11</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmb_deviceID.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="cmb_deviceID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 22</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmb_deviceID.TabIndex" type="System.Int32, mscorlib">
+    <value>880</value>
+  </data>
+  <data name="&gt;&gt;cmb_deviceID.Name" xml:space="preserve">
+    <value>cmb_deviceID</value>
+  </data>
+  <data name="&gt;&gt;cmb_deviceID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmb_deviceID.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmb_deviceID.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>15, 3</value>
+  </metadata>
+  <data name="cmb_hPB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="cmb_hPB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 22</value>
+  </data>
+  <data name="cmb_hPB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="cmb_hPB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 22</value>
+  </data>
+  <data name="cmb_hPB.TabIndex" type="System.Int32, mscorlib">
+    <value>886</value>
+  </data>
+  <data name="cmb_hPB.Text" xml:space="preserve">
+    <value> 1-1_1</value>
+  </data>
+  <data name="&gt;&gt;cmb_hPB.Name" xml:space="preserve">
+    <value>cmb_hPB</value>
+  </data>
+  <data name="&gt;&gt;cmb_hPB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmb_hPB.Parent" xml:space="preserve">
+    <value>grp_spi</value>
+  </data>
+  <data name="&gt;&gt;cmb_hPB.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lbl_barcode.Name" xml:space="preserve">
+    <value>lbl_barcode</value>
+  </data>
+  <data name="&gt;&gt;lbl_barcode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_barcode.Parent" xml:space="preserve">
+    <value>grp_flash</value>
+  </data>
+  <data name="&gt;&gt;lbl_barcode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbl_BinSize.Name" xml:space="preserve">
+    <value>lbl_BinSize</value>
+  </data>
+  <data name="&gt;&gt;lbl_BinSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_BinSize.Parent" xml:space="preserve">
+    <value>grp_flash</value>
+  </data>
+  <data name="&gt;&gt;lbl_BinSize.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btn_GetBin.Name" xml:space="preserve">
+    <value>btn_GetBin</value>
+  </data>
+  <data name="&gt;&gt;btn_GetBin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_GetBin.Parent" xml:space="preserve">
+    <value>grp_flash</value>
+  </data>
+  <data name="&gt;&gt;btn_GetBin.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbl_jedecid.Name" xml:space="preserve">
+    <value>lbl_jedecid</value>
+  </data>
+  <data name="&gt;&gt;lbl_jedecid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_jedecid.Parent" xml:space="preserve">
+    <value>grp_flash</value>
+  </data>
+  <data name="&gt;&gt;lbl_jedecid.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lbl_FLASHINFO.Name" xml:space="preserve">
+    <value>lbl_FLASHINFO</value>
+  </data>
+  <data name="&gt;&gt;lbl_FLASHINFO.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_FLASHINFO.Parent" xml:space="preserve">
+    <value>grp_flash</value>
+  </data>
+  <data name="&gt;&gt;lbl_FLASHINFO.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btn_FLASHINFO.Name" xml:space="preserve">
+    <value>btn_FLASHINFO</value>
+  </data>
+  <data name="&gt;&gt;btn_FLASHINFO.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_FLASHINFO.Parent" xml:space="preserve">
+    <value>grp_flash</value>
+  </data>
+  <data name="&gt;&gt;btn_FLASHINFO.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lbl_fileofflashread.Name" xml:space="preserve">
+    <value>lbl_fileofflashread</value>
+  </data>
+  <data name="&gt;&gt;lbl_fileofflashread.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_fileofflashread.Parent" xml:space="preserve">
+    <value>grp_flash</value>
+  </data>
+  <data name="&gt;&gt;lbl_fileofflashread.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btn_FLASHREAD.Name" xml:space="preserve">
+    <value>btn_FLASHREAD</value>
+  </data>
+  <data name="&gt;&gt;btn_FLASHREAD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_FLASHREAD.Parent" xml:space="preserve">
+    <value>grp_flash</value>
+  </data>
+  <data name="&gt;&gt;btn_FLASHREAD.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;cmb_FlashSel.Name" xml:space="preserve">
+    <value>cmb_FlashSel</value>
+  </data>
+  <data name="&gt;&gt;cmb_FlashSel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmb_FlashSel.Parent" xml:space="preserve">
+    <value>grp_flash</value>
+  </data>
+  <data name="&gt;&gt;cmb_FlashSel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lbl_BinChecksum.Name" xml:space="preserve">
+    <value>lbl_BinChecksum</value>
+  </data>
+  <data name="&gt;&gt;lbl_BinChecksum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_BinChecksum.Parent" xml:space="preserve">
+    <value>grp_flash</value>
+  </data>
+  <data name="&gt;&gt;lbl_BinChecksum.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txt_FlashFileNameFull.Name" xml:space="preserve">
+    <value>txt_FlashFileNameFull</value>
+  </data>
+  <data name="&gt;&gt;txt_FlashFileNameFull.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_FlashFileNameFull.Parent" xml:space="preserve">
+    <value>grp_flash</value>
+  </data>
+  <data name="&gt;&gt;txt_FlashFileNameFull.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;btn_FLASHWRITE.Name" xml:space="preserve">
+    <value>btn_FLASHWRITE</value>
+  </data>
+  <data name="&gt;&gt;btn_FLASHWRITE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_FLASHWRITE.Parent" xml:space="preserve">
+    <value>grp_flash</value>
+  </data>
+  <data name="&gt;&gt;btn_FLASHWRITE.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;txt_FlashFileName.Name" xml:space="preserve">
+    <value>txt_FlashFileName</value>
+  </data>
+  <data name="&gt;&gt;txt_FlashFileName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_FlashFileName.Parent" xml:space="preserve">
+    <value>grp_flash</value>
+  </data>
+  <data name="&gt;&gt;txt_FlashFileName.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="grp_flash.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="grp_flash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 44</value>
+  </data>
+  <data name="grp_flash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>731, 146</value>
+  </data>
+  <data name="grp_flash.TabIndex" type="System.Int32, mscorlib">
+    <value>890</value>
+  </data>
+  <data name="grp_flash.Text" xml:space="preserve">
+    <value>閃存記憶體</value>
+  </data>
+  <data name="&gt;&gt;grp_flash.Name" xml:space="preserve">
+    <value>grp_flash</value>
+  </data>
+  <data name="&gt;&gt;grp_flash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grp_flash.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grp_flash.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lbl_barcode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_barcode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="lbl_barcode.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_barcode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>460, 68</value>
+  </data>
+  <data name="lbl_barcode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 14</value>
+  </data>
+  <data name="lbl_barcode.TabIndex" type="System.Int32, mscorlib">
+    <value>902</value>
+  </data>
+  <data name="lbl_barcode.Text" xml:space="preserve">
+    <value>Barcode:</value>
+  </data>
+  <data name="lbl_barcode.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbl_barcode.Name" xml:space="preserve">
+    <value>lbl_barcode</value>
+  </data>
+  <data name="&gt;&gt;lbl_barcode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_barcode.Parent" xml:space="preserve">
+    <value>grp_flash</value>
+  </data>
+  <data name="&gt;&gt;lbl_barcode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_BinSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_BinSize.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="lbl_BinSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>460, 38</value>
+  </data>
+  <data name="lbl_BinSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 14</value>
+  </data>
+  <data name="lbl_BinSize.TabIndex" type="System.Int32, mscorlib">
+    <value>900</value>
+  </data>
+  <data name="lbl_BinSize.Text" xml:space="preserve">
+    <value>Size:</value>
+  </data>
+  <data name="lbl_BinSize.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbl_BinSize.Name" xml:space="preserve">
+    <value>lbl_BinSize</value>
+  </data>
+  <data name="&gt;&gt;lbl_BinSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_BinSize.Parent" xml:space="preserve">
+    <value>grp_flash</value>
+  </data>
+  <data name="&gt;&gt;lbl_BinSize.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btn_GetBin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="btn_GetBin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 102</value>
+  </data>
+  <data name="btn_GetBin.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btn_GetBin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 21</value>
+  </data>
+  <data name="btn_GetBin.TabIndex" type="System.Int32, mscorlib">
+    <value>893</value>
+  </data>
+  <data name="btn_GetBin.Text" xml:space="preserve">
+    <value>GetBin</value>
+  </data>
+  <data name="&gt;&gt;btn_GetBin.Name" xml:space="preserve">
+    <value>btn_GetBin</value>
+  </data>
+  <data name="&gt;&gt;btn_GetBin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_GetBin.Parent" xml:space="preserve">
+    <value>grp_flash</value>
+  </data>
+  <data name="&gt;&gt;btn_GetBin.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbl_jedecid.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_jedecid.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lbl_jedecid.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_jedecid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 25</value>
+  </data>
+  <data name="lbl_jedecid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 14</value>
+  </data>
+  <data name="lbl_jedecid.TabIndex" type="System.Int32, mscorlib">
+    <value>899</value>
+  </data>
+  <data name="lbl_jedecid.Text" xml:space="preserve">
+    <value>JedecId</value>
+  </data>
+  <data name="lbl_jedecid.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomRight</value>
+  </data>
+  <data name="&gt;&gt;lbl_jedecid.Name" xml:space="preserve">
+    <value>lbl_jedecid</value>
+  </data>
+  <data name="&gt;&gt;lbl_jedecid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_jedecid.Parent" xml:space="preserve">
+    <value>grp_flash</value>
+  </data>
+  <data name="&gt;&gt;lbl_jedecid.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbl_FLASHINFO.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_FLASHINFO.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 7pt</value>
+  </data>
+  <data name="lbl_FLASHINFO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 26</value>
+  </data>
+  <data name="lbl_FLASHINFO.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="lbl_FLASHINFO.TabIndex" type="System.Int32, mscorlib">
+    <value>898</value>
+  </data>
+  <data name="lbl_FLASHINFO.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomRight</value>
+  </data>
+  <data name="&gt;&gt;lbl_FLASHINFO.Name" xml:space="preserve">
+    <value>lbl_FLASHINFO</value>
+  </data>
+  <data name="&gt;&gt;lbl_FLASHINFO.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_FLASHINFO.Parent" xml:space="preserve">
+    <value>grp_flash</value>
+  </data>
+  <data name="&gt;&gt;lbl_FLASHINFO.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btn_FLASHINFO.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="btn_FLASHINFO.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btn_FLASHINFO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 21</value>
+  </data>
+  <data name="btn_FLASHINFO.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="btn_FLASHINFO.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 22</value>
+  </data>
+  <data name="btn_FLASHINFO.TabIndex" type="System.Int32, mscorlib">
+    <value>897</value>
+  </data>
+  <data name="btn_FLASHINFO.Text" xml:space="preserve">
+    <value>識別</value>
+  </data>
+  <data name="&gt;&gt;btn_FLASHINFO.Name" xml:space="preserve">
+    <value>btn_FLASHINFO</value>
+  </data>
+  <data name="&gt;&gt;btn_FLASHINFO.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_FLASHINFO.Parent" xml:space="preserve">
+    <value>grp_flash</value>
+  </data>
+  <data name="&gt;&gt;btn_FLASHINFO.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lbl_fileofflashread.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_fileofflashread.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="lbl_fileofflashread.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 81</value>
+  </data>
+  <data name="lbl_fileofflashread.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 14</value>
+  </data>
+  <data name="lbl_fileofflashread.TabIndex" type="System.Int32, mscorlib">
+    <value>896</value>
+  </data>
+  <data name="lbl_fileofflashread.Text" xml:space="preserve">
+    <value>...\Parameter\*Read.bin</value>
+  </data>
+  <data name="lbl_fileofflashread.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomRight</value>
+  </data>
+  <data name="&gt;&gt;lbl_fileofflashread.Name" xml:space="preserve">
+    <value>lbl_fileofflashread</value>
+  </data>
+  <data name="&gt;&gt;lbl_fileofflashread.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_fileofflashread.Parent" xml:space="preserve">
+    <value>grp_flash</value>
+  </data>
+  <data name="&gt;&gt;lbl_fileofflashread.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btn_FLASHREAD.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="btn_FLASHREAD.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btn_FLASHREAD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 76</value>
+  </data>
+  <data name="btn_FLASHREAD.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btn_FLASHREAD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 23</value>
+  </data>
+  <data name="btn_FLASHREAD.TabIndex" type="System.Int32, mscorlib">
+    <value>895</value>
+  </data>
+  <data name="btn_FLASHREAD.Text" xml:space="preserve">
+    <value>回 讀</value>
+  </data>
+  <data name="&gt;&gt;btn_FLASHREAD.Name" xml:space="preserve">
+    <value>btn_FLASHREAD</value>
+  </data>
+  <data name="&gt;&gt;btn_FLASHREAD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_FLASHREAD.Parent" xml:space="preserve">
+    <value>grp_flash</value>
+  </data>
+  <data name="&gt;&gt;btn_FLASHREAD.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cmb_FlashSel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="cmb_FlashSel.Items" xml:space="preserve">
+    <value> 0. OPEN</value>
+  </data>
+  <data name="cmb_FlashSel.Items1" xml:space="preserve">
+    <value> 1. FPGA</value>
+  </data>
+  <data name="cmb_FlashSel.Items2" xml:space="preserve">
+    <value> 2. DEMURA</value>
+  </data>
+  <data name="cmb_FlashSel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 22</value>
+  </data>
+  <data name="cmb_FlashSel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="cmb_FlashSel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 22</value>
+  </data>
+  <data name="cmb_FlashSel.TabIndex" type="System.Int32, mscorlib">
+    <value>894</value>
+  </data>
+  <data name="&gt;&gt;cmb_FlashSel.Name" xml:space="preserve">
+    <value>cmb_FlashSel</value>
+  </data>
+  <data name="&gt;&gt;cmb_FlashSel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmb_FlashSel.Parent" xml:space="preserve">
+    <value>grp_flash</value>
+  </data>
+  <data name="&gt;&gt;cmb_FlashSel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lbl_BinChecksum.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_BinChecksum.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="lbl_BinChecksum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>460, 52</value>
+  </data>
+  <data name="lbl_BinChecksum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 14</value>
+  </data>
+  <data name="lbl_BinChecksum.TabIndex" type="System.Int32, mscorlib">
+    <value>893</value>
+  </data>
+  <data name="lbl_BinChecksum.Text" xml:space="preserve">
+    <value>CheckSum</value>
+  </data>
+  <data name="lbl_BinChecksum.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbl_BinChecksum.Name" xml:space="preserve">
+    <value>lbl_BinChecksum</value>
+  </data>
+  <data name="&gt;&gt;lbl_BinChecksum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_BinChecksum.Parent" xml:space="preserve">
+    <value>grp_flash</value>
+  </data>
+  <data name="&gt;&gt;lbl_BinChecksum.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txt_FlashFileNameFull.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="txt_FlashFileNameFull.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 52</value>
+  </data>
+  <data name="txt_FlashFileNameFull.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="txt_FlashFileNameFull.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_FlashFileNameFull.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 18</value>
+  </data>
+  <data name="txt_FlashFileNameFull.TabIndex" type="System.Int32, mscorlib">
+    <value>892</value>
+  </data>
+  <data name="txt_FlashFileNameFull.Text" xml:space="preserve">
+    <value>FlashFileNameFull</value>
+  </data>
+  <data name="txt_FlashFileNameFull.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txt_FlashFileNameFull.Name" xml:space="preserve">
+    <value>txt_FlashFileNameFull</value>
+  </data>
+  <data name="&gt;&gt;txt_FlashFileNameFull.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_FlashFileNameFull.Parent" xml:space="preserve">
+    <value>grp_flash</value>
+  </data>
+  <data name="&gt;&gt;txt_FlashFileNameFull.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btn_FLASHWRITE.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="btn_FLASHWRITE.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btn_FLASHWRITE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 50</value>
+  </data>
+  <data name="btn_FLASHWRITE.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="btn_FLASHWRITE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 22</value>
+  </data>
+  <data name="btn_FLASHWRITE.TabIndex" type="System.Int32, mscorlib">
+    <value>890</value>
+  </data>
+  <data name="btn_FLASHWRITE.Text" xml:space="preserve">
+    <value>寫 入</value>
+  </data>
+  <data name="&gt;&gt;btn_FLASHWRITE.Name" xml:space="preserve">
+    <value>btn_FLASHWRITE</value>
+  </data>
+  <data name="&gt;&gt;btn_FLASHWRITE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_FLASHWRITE.Parent" xml:space="preserve">
+    <value>grp_flash</value>
+  </data>
+  <data name="&gt;&gt;btn_FLASHWRITE.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="txt_FlashFileName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="txt_FlashFileName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 52</value>
+  </data>
+  <data name="txt_FlashFileName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="txt_FlashFileName.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_FlashFileName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>339, 19</value>
+  </data>
+  <data name="txt_FlashFileName.TabIndex" type="System.Int32, mscorlib">
+    <value>891</value>
+  </data>
+  <data name="txt_FlashFileName.Text" xml:space="preserve">
+    <value>*.bin (選擇檔案請雙擊這裡)</value>
+  </data>
+  <data name="&gt;&gt;txt_FlashFileName.Name" xml:space="preserve">
+    <value>txt_FlashFileName</value>
+  </data>
+  <data name="&gt;&gt;txt_FlashFileName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_FlashFileName.Parent" xml:space="preserve">
+    <value>grp_flash</value>
+  </data>
+  <data name="&gt;&gt;txt_FlashFileName.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;btn_jedecidread.Name" xml:space="preserve">
+    <value>btn_jedecidread</value>
+  </data>
+  <data name="&gt;&gt;btn_jedecidread.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_jedecidread.Parent" xml:space="preserve">
+    <value>grp_spi</value>
+  </data>
+  <data name="&gt;&gt;btn_jedecidread.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>grp_spi</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txt_spiFlashFileName.Name" xml:space="preserve">
+    <value>txt_spiFlashFileName</value>
+  </data>
+  <data name="&gt;&gt;txt_spiFlashFileName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_spiFlashFileName.Parent" xml:space="preserve">
+    <value>grp_spi</value>
+  </data>
+  <data name="&gt;&gt;txt_spiFlashFileName.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btn_spiFlashWR.Name" xml:space="preserve">
+    <value>btn_spiFlashWR</value>
+  </data>
+  <data name="&gt;&gt;btn_spiFlashWR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_spiFlashWR.Parent" xml:space="preserve">
+    <value>grp_spi</value>
+  </data>
+  <data name="&gt;&gt;btn_spiFlashWR.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;SPI_1MB_rdbtn.Name" xml:space="preserve">
+    <value>SPI_1MB_rdbtn</value>
+  </data>
+  <data name="&gt;&gt;SPI_1MB_rdbtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SPI_1MB_rdbtn.Parent" xml:space="preserve">
+    <value>grp_spi</value>
+  </data>
+  <data name="&gt;&gt;SPI_1MB_rdbtn.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="grp_spi.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="grp_spi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 388</value>
+  </data>
+  <data name="grp_spi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>731, 115</value>
+  </data>
+  <data name="grp_spi.TabIndex" type="System.Int32, mscorlib">
+    <value>891</value>
+  </data>
+  <data name="grp_spi.Text" xml:space="preserve">
+    <value>LED demura / white traking code</value>
+  </data>
+  <data name="grp_spi.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;grp_spi.Name" xml:space="preserve">
+    <value>grp_spi</value>
+  </data>
+  <data name="&gt;&gt;grp_spi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grp_spi.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grp_spi.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btn_jedecidread.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="btn_jedecidread.Location" type="System.Drawing.Point, System.Drawing">
+    <value>252, 20</value>
+  </data>
+  <data name="btn_jedecidread.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="btn_jedecidread.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 22</value>
+  </data>
+  <data name="btn_jedecidread.TabIndex" type="System.Int32, mscorlib">
+    <value>896</value>
+  </data>
+  <data name="btn_jedecidread.Text" xml:space="preserve">
+    <value>JedecId read</value>
+  </data>
+  <data name="&gt;&gt;btn_jedecidread.Name" xml:space="preserve">
+    <value>btn_jedecidread</value>
+  </data>
+  <data name="&gt;&gt;btn_jedecidread.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_jedecidread.Parent" xml:space="preserve">
+    <value>grp_spi</value>
+  </data>
+  <data name="&gt;&gt;btn_jedecidread.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 7pt</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 59</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>895</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>2048</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomRight</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>grp_spi</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txt_spiFlashFileName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="txt_spiFlashFileName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 56</value>
+  </data>
+  <data name="txt_spiFlashFileName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="txt_spiFlashFileName.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_spiFlashFileName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>339, 19</value>
+  </data>
+  <data name="txt_spiFlashFileName.TabIndex" type="System.Int32, mscorlib">
+    <value>894</value>
+  </data>
+  <data name="txt_spiFlashFileName.Text" xml:space="preserve">
+    <value>*.bin (double click here to select bin file)</value>
+  </data>
+  <data name="&gt;&gt;txt_spiFlashFileName.Name" xml:space="preserve">
+    <value>txt_spiFlashFileName</value>
+  </data>
+  <data name="&gt;&gt;txt_spiFlashFileName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_spiFlashFileName.Parent" xml:space="preserve">
+    <value>grp_spi</value>
+  </data>
+  <data name="&gt;&gt;txt_spiFlashFileName.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btn_spiFlashWR.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="btn_spiFlashWR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 54</value>
+  </data>
+  <data name="btn_spiFlashWR.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="btn_spiFlashWR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 22</value>
+  </data>
+  <data name="btn_spiFlashWR.TabIndex" type="System.Int32, mscorlib">
+    <value>891</value>
+  </data>
+  <data name="btn_spiFlashWR.Text" xml:space="preserve">
+    <value> Flash W &amp;&amp; R</value>
+  </data>
+  <data name="btn_spiFlashWR.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btn_spiFlashWR.Name" xml:space="preserve">
+    <value>btn_spiFlashWR</value>
+  </data>
+  <data name="&gt;&gt;btn_spiFlashWR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_spiFlashWR.Parent" xml:space="preserve">
+    <value>grp_spi</value>
+  </data>
+  <data name="&gt;&gt;btn_spiFlashWR.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="SPI_1MB_rdbtn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SPI_1MB_rdbtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 22</value>
+  </data>
+  <data name="SPI_1MB_rdbtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 18</value>
+  </data>
+  <data name="SPI_1MB_rdbtn.TabIndex" type="System.Int32, mscorlib">
+    <value>887</value>
+  </data>
+  <data name="SPI_1MB_rdbtn.Text" xml:space="preserve">
+    <value>1MB(8Mb)</value>
+  </data>
+  <data name="&gt;&gt;SPI_1MB_rdbtn.Name" xml:space="preserve">
+    <value>SPI_1MB_rdbtn</value>
+  </data>
+  <data name="&gt;&gt;SPI_1MB_rdbtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SPI_1MB_rdbtn.Parent" xml:space="preserve">
+    <value>grp_spi</value>
+  </data>
+  <data name="&gt;&gt;SPI_1MB_rdbtn.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lst_get1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="lst_get1.HorizontalScrollbar" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lst_get1.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="lst_get1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 343</value>
+  </data>
+  <data name="lst_get1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>731, 30</value>
+  </data>
+  <data name="lst_get1.TabIndex" type="System.Int32, mscorlib">
+    <value>892</value>
+  </data>
+  <data name="&gt;&gt;lst_get1.Name" xml:space="preserve">
+    <value>lst_get1</value>
+  </data>
+  <data name="&gt;&gt;lst_get1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lst_get1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lst_get1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chk_NVBC.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk_NVBC.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="chk_NVBC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 16</value>
+  </data>
+  <data name="chk_NVBC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 17</value>
+  </data>
+  <data name="chk_NVBC.TabIndex" type="System.Int32, mscorlib">
+    <value>894</value>
+  </data>
+  <data name="chk_NVBC.Text" xml:space="preserve">
+    <value>大屏廣播</value>
+  </data>
+  <data name="&gt;&gt;chk_NVBC.Name" xml:space="preserve">
+    <value>chk_NVBC</value>
+  </data>
+  <data name="&gt;&gt;chk_NVBC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk_NVBC.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_NVBC.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;OCP_Enable_btn.Name" xml:space="preserve">
+    <value>OCP_Enable_btn</value>
+  </data>
+  <data name="&gt;&gt;OCP_Enable_btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OCP_Enable_btn.Parent" xml:space="preserve">
+    <value>groupBox20</value>
+  </data>
+  <data name="&gt;&gt;OCP_Enable_btn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;OCP_Disable_btn.Name" xml:space="preserve">
+    <value>OCP_Disable_btn</value>
+  </data>
+  <data name="&gt;&gt;OCP_Disable_btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OCP_Disable_btn.Parent" xml:space="preserve">
+    <value>groupBox20</value>
+  </data>
+  <data name="&gt;&gt;OCP_Disable_btn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;OCP_Auto_btn.Name" xml:space="preserve">
+    <value>OCP_Auto_btn</value>
+  </data>
+  <data name="&gt;&gt;OCP_Auto_btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OCP_Auto_btn.Parent" xml:space="preserve">
+    <value>groupBox20</value>
+  </data>
+  <data name="&gt;&gt;OCP_Auto_btn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;textBox82.Name" xml:space="preserve">
+    <value>textBox82</value>
+  </data>
+  <data name="&gt;&gt;textBox82.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox82.Parent" xml:space="preserve">
+    <value>groupBox20</value>
+  </data>
+  <data name="&gt;&gt;textBox82.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="groupBox20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="groupBox20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 19</value>
+  </data>
+  <data name="groupBox20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 76</value>
+  </data>
+  <data name="groupBox20.TabIndex" type="System.Int32, mscorlib">
+    <value>596</value>
+  </data>
+  <data name="&gt;&gt;groupBox20.Name" xml:space="preserve">
+    <value>groupBox20</value>
+  </data>
+  <data name="&gt;&gt;groupBox20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox20.Parent" xml:space="preserve">
+    <value>grp_ocp</value>
+  </data>
+  <data name="&gt;&gt;groupBox20.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="dataGridViewTextBoxColumn10.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="MCU_OCP_Rd_dGV.Location" type="System.Drawing.Point, System.Drawing">
+    <value>186, 10</value>
+  </data>
+  <data name="MCU_OCP_Rd_dGV.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 58</value>
+  </data>
+  <data name="MCU_OCP_Rd_dGV.TabIndex" type="System.Int32, mscorlib">
+    <value>541</value>
+  </data>
+  <data name="&gt;&gt;MCU_OCP_Rd_dGV.Name" xml:space="preserve">
+    <value>MCU_OCP_Rd_dGV</value>
+  </data>
+  <data name="&gt;&gt;MCU_OCP_Rd_dGV.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MCU_OCP_Rd_dGV.Parent" xml:space="preserve">
+    <value>grp_ocp</value>
+  </data>
+  <data name="&gt;&gt;MCU_OCP_Rd_dGV.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grp_ocp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="grp_ocp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 200</value>
+  </data>
+  <data name="grp_ocp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>728, 137</value>
+  </data>
+  <data name="grp_ocp.TabIndex" type="System.Int32, mscorlib">
+    <value>895</value>
+  </data>
+  <data name="grp_ocp.Text" xml:space="preserve">
+    <value>OCP Enable</value>
+  </data>
+  <data name="&gt;&gt;grp_ocp.Name" xml:space="preserve">
+    <value>grp_ocp</value>
+  </data>
+  <data name="&gt;&gt;grp_ocp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grp_ocp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grp_ocp.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="OCP_Enable_btn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 9pt, style=Bold</value>
+  </data>
+  <data name="OCP_Enable_btn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 49</value>
+  </data>
+  <data name="OCP_Enable_btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 24</value>
+  </data>
+  <data name="OCP_Enable_btn.TabIndex" type="System.Int32, mscorlib">
+    <value>596</value>
+  </data>
+  <data name="OCP_Enable_btn.Text" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="&gt;&gt;OCP_Enable_btn.Name" xml:space="preserve">
+    <value>OCP_Enable_btn</value>
+  </data>
+  <data name="&gt;&gt;OCP_Enable_btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OCP_Enable_btn.Parent" xml:space="preserve">
+    <value>groupBox20</value>
+  </data>
+  <data name="&gt;&gt;OCP_Enable_btn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="OCP_Disable_btn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 9pt, style=Bold</value>
+  </data>
+  <data name="OCP_Disable_btn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 49</value>
+  </data>
+  <data name="OCP_Disable_btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 24</value>
+  </data>
+  <data name="OCP_Disable_btn.TabIndex" type="System.Int32, mscorlib">
+    <value>595</value>
+  </data>
+  <data name="OCP_Disable_btn.Text" xml:space="preserve">
+    <value>Disable</value>
+  </data>
+  <data name="&gt;&gt;OCP_Disable_btn.Name" xml:space="preserve">
+    <value>OCP_Disable_btn</value>
+  </data>
+  <data name="&gt;&gt;OCP_Disable_btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OCP_Disable_btn.Parent" xml:space="preserve">
+    <value>groupBox20</value>
+  </data>
+  <data name="&gt;&gt;OCP_Disable_btn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="OCP_Auto_btn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 9pt, style=Bold</value>
+  </data>
+  <data name="OCP_Auto_btn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 6</value>
+  </data>
+  <data name="OCP_Auto_btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 22</value>
+  </data>
+  <data name="OCP_Auto_btn.TabIndex" type="System.Int32, mscorlib">
+    <value>481</value>
+  </data>
+  <data name="OCP_Auto_btn.Text" xml:space="preserve">
+    <value>Auto OCP</value>
+  </data>
+  <data name="&gt;&gt;OCP_Auto_btn.Name" xml:space="preserve">
+    <value>OCP_Auto_btn</value>
+  </data>
+  <data name="&gt;&gt;OCP_Auto_btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OCP_Auto_btn.Parent" xml:space="preserve">
+    <value>groupBox20</value>
+  </data>
+  <data name="&gt;&gt;OCP_Auto_btn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="textBox82.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 27</value>
+  </data>
+  <data name="textBox82.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 20</value>
+  </data>
+  <data name="textBox82.TabIndex" type="System.Int32, mscorlib">
+    <value>594</value>
+  </data>
+  <data name="textBox82.Text" xml:space="preserve">
+    <value>No1</value>
+  </data>
+  <data name="&gt;&gt;textBox82.Name" xml:space="preserve">
+    <value>textBox82</value>
+  </data>
+  <data name="&gt;&gt;textBox82.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox82.Parent" xml:space="preserve">
+    <value>groupBox20</value>
+  </data>
+  <data name="&gt;&gt;textBox82.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="dataGridViewTextBoxColumn10.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dataGridViewTextBoxColumn10.HeaderText" xml:space="preserve">
+    <value>Column1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>30</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 9pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>758, 545</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Name" xml:space="preserve">
+    <value>openFileDialog1</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn10.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn10</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>uc_Flash</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7DCB1514-C26E-451A-8EE8-495939B8F8DB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PID</RootNamespace>
+    <AssemblyName>PID_UI</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CASDK2Net, Version=1.0.6711.21382, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\CASDK2Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Nova.Control.CrystalButton">
+      <HintPath>Lib\Nova.Control.CrystalButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Nova.Control.DataGridViewBaseEx, Version=1.0.1706.1601, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\Nova.Control.DataGridViewBaseEx.dll</HintPath>
+    </Reference>
+    <Reference Include="Nova.Control.GammaAdjust, Version=1.0.1709.3001, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\Nova.Control.GammaAdjust.dll</HintPath>
+    </Reference>
+    <Reference Include="Nova.Database.CoefsAccessor">
+      <HintPath>Lib\Nova.Database.CoefsAccessor.dll</HintPath>
+    </Reference>
+    <Reference Include="Nova.Diagnostics.ExceptionHandle">
+      <HintPath>Lib\Nova.Diagnostics.ExceptionHandle.dll</HintPath>
+    </Reference>
+    <Reference Include="Nova.LCT.GigabitSystem.CommonInfoAccessor">
+      <HintPath>Lib\Nova.LCT.GigabitSystem.CommonInfoAccessor.dll</HintPath>
+    </Reference>
+    <Reference Include="Nova.LCT.GigabitSystem.DataClass">
+      <HintPath>Lib\Nova.LCT.GigabitSystem.DataClass.dll</HintPath>
+    </Reference>
+    <Reference Include="Nova.LCT.GigabitSystem.DataGridView">
+      <HintPath>Lib\Nova.LCT.GigabitSystem.DataGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="Nova.LCT.GigabitSystem.HardwareFiles">
+      <HintPath>Lib\Nova.LCT.GigabitSystem.HardwareFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="Nova.LCT.GigabitSystem.HWStatusMonitor">
+      <HintPath>Lib\Nova.LCT.GigabitSystem.HWStatusMonitor.dll</HintPath>
+    </Reference>
+    <Reference Include="Nova.LCT.GigabitSystem.LEDConfigAccessor">
+      <HintPath>Lib\Nova.LCT.GigabitSystem.LEDConfigAccessor.dll</HintPath>
+    </Reference>
+    <Reference Include="Nova.LCT.GigabitSystem.ProtocolEnum">
+      <HintPath>Lib\Nova.LCT.GigabitSystem.ProtocolEnum.dll</HintPath>
+    </Reference>
+    <Reference Include="Nova.Mars.SDK.MarsInterface">
+      <HintPath>Lib\Nova.Mars.SDK.MarsInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EquipmentIP\IpInputBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EquipmentIP\SubIpInputBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EquipmentIP\UC_EquipmentIP.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EquipmentIP\UC_EquipmentIPEventArgs.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmmsg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmmsg.Designer.cs">
+      <DependentUpon>frmmsg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="i3_Init.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="i3_Init.designer.cs">
+      <DependentUpon>i3_Init.cs</DependentUpon>
+    </Compile>
+    <Compile Include="i3_Pat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="i3_Pat.designer.cs">
+      <DependentUpon>i3_Pat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mCA4.cs" />
+    <Compile Include="mCAs.cs" />
+    <Compile Include="mp.cs" />
+    <Compile Include="mvars.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SLUSBXpressDLL.cs" />
+    <Compile Include="uc_atg.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uc_atg.Designer.cs">
+      <DependentUpon>uc_atg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uc_bin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uc_bin.Designer.cs">
+      <DependentUpon>uc_bin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uc_brightnessAdj.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uc_brightnessAdj.designer.cs">
+      <DependentUpon>uc_brightnessAdj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uc_C12Ademura.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uc_C12Ademura.Designer.cs">
+      <DependentUpon>uc_C12Ademura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uc_cm603.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uc_cm603.designer.cs">
+      <DependentUpon>uc_cm603.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uc_Flash.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uc_Flash.Designer.cs">
+      <DependentUpon>uc_Flash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uc_FPGAreg.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uc_FPGAreg.Designer.cs">
+      <DependentUpon>uc_FPGAreg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uc_GammaSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uc_GammaSetting.Designer.cs">
+      <DependentUpon>uc_GammaSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uc_in516.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uc_in516.Designer.cs">
+      <DependentUpon>uc_in516.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uc_in525.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uc_in525.Designer.cs">
+      <DependentUpon>uc_in525.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_OneScreenInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uc_tvblcm603.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uc_tvblcm603.Designer.cs">
+      <DependentUpon>uc_tvblcm603.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uc_tvblin602c.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uc_tvblin602c.Designer.cs">
+      <DependentUpon>uc_tvblin602c.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="EquipmentIP\UC_EquipmentIP.resx" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmmsg.resx">
+      <DependentUpon>frmmsg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="i3_Init.resx">
+      <DependentUpon>i3_Init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="i3_Pat.resx">
+      <DependentUpon>i3_Pat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uc_atg.resx">
+      <DependentUpon>uc_atg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uc_bin.resx">
+      <DependentUpon>uc_bin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uc_brightnessAdj.resx">
+      <DependentUpon>uc_brightnessAdj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uc_C12Ademura.resx">
+      <DependentUpon>uc_C12Ademura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uc_cm603.resx">
+      <DependentUpon>uc_cm603.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uc_Flash.resx">
+      <DependentUpon>uc_Flash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uc_FPGAreg.resx">
+      <DependentUpon>uc_FPGAreg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uc_GammaSetting.resx">
+      <DependentUpon>uc_GammaSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uc_in516.resx">
+      <DependentUpon>uc_in516.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uc_in525.resx">
+      <DependentUpon>uc_in525.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_OneScreenInfo.resx" />
+    <EmbeddedResource Include="uc_tvblcm603.resx">
+      <DependentUpon>uc_tvblcm603.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uc_tvblin602c.resx">
+      <DependentUpon>uc_tvblin602c.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="CA200SRVRLib">
+      <Guid>{81480671-9287-43D4-8A21-F0CB0157077F}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aio.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
