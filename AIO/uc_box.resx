@@ -223,13 +223,13 @@
     <value>18</value>
   </data>
   <data name="lst_get1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 54</value>
+    <value>1, 90</value>
   </data>
   <data name="lst_get1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="lst_get1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 702</value>
+    <value>221, 666</value>
   </data>
   <data name="lst_get1.TabIndex" type="System.Int32, mscorlib">
     <value>922</value>
@@ -1054,10 +1054,10 @@
     <value>NoControl</value>
   </data>
   <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>237, 736</value>
+    <value>75, 52</value>
   </data>
   <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>139, 45</value>
+    <value>147, 31</value>
   </data>
   <data name="button2.TabIndex" type="System.Int32, mscorlib">
     <value>948</value>
