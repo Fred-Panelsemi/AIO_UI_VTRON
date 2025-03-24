@@ -1628,6 +1628,11 @@ namespace AIO
                     else if (sveC == 1) Form1.nvsender[0].regBoxMark[svlast] = mp.replaceBoxMark(Form1.nvsender[0].regBoxMark[svlast], 3, "100");
                 }
             }
+            for (int j = 0; j < Form1.nvsender[0].regBoxMark[0].Split(',').Count(); j++)
+            {
+                //Console.WriteLine($"{j} : {Form1.nvsender[0].regBoxMark[0].Split(',')[j]}, {Form1.nvsender[0].regBoxMark[1].Split(',')[j]}, {Form1.nvsender[0].regBoxMark[2].Split(',')[j]}, {Form1.nvsender[0].regBoxMark[3].Split(',')[j]}");
+            }
+            Console.WriteLine();
         #endregion 各單屏紀錄解析度
 
 
@@ -3304,10 +3309,12 @@ namespace AIO
                 if (mvars.deviceID == "0300") { MessageBox.Show("Please select single XB", mvars.strUInameMe + "_v" + mvars.UImajor); return; }
                 Form1.tslblHW.Text = "232"; Form1.tslblHW.BackColor = Control.DefaultBackColor; Form1.tslblHW.ForeColor = Color.Black;
                 Form1.tslblCOM.ForeColor = Color.Red;
+                
                 mvars.errCode = "-1"; goto eX;
             }
 
         reDo:
+           
             string strpath = System.Environment.CurrentDirectory + @"\Parameter\EDID\";
             if (Directory.Exists(strpath) == false) { mvars.errCode = "-2"; goto eX; }
             mp.markreset(9999, false);
@@ -3316,7 +3323,7 @@ namespace AIO
             byte svFPGAsel = mvars.FPGAsel;
             mvars.FPGAsel = 2;
             byte svL = 1;
-
+           
             #region 3. SERIES MODE
             lst_get1.Items.Insert(0, "▪▪▪▪➧");
             if (MultiLanguage.DefaultLanguage == "en-US") { lst_get1.Items.Insert(1, "  Series Mode ▪▪▪"); }
@@ -4145,8 +4152,9 @@ namespace AIO
                 mvars.FPGAsel = 2;
                 //====================
                 Form1.pvindex = 65;
-                svm = Convert.ToInt32(svmk[5]);    //svsel (0 = 480,1440,,,)  (1 = 0,960,,,)
-                svm %= 2160;
+                // 2025/2/17 魔改 解決威創 黑線延遲問題
+                svm = Convert.ToInt32(svmk[5])/540*12968;    //svsel (0 = 480,1440,,,)  (1 = 0,960,,,)
+                //svm %= 2160;
                 lstget1.Items.Insert(1, "  R" + Form1.pvindex + "，" + svm.ToString() + " ▪▪▪");
                 if (mvars.demoMode)
                 {
@@ -4240,8 +4248,9 @@ namespace AIO
                     }
                     Form1.lstmcuW60000.Items.RemoveAt(j);
                     //Form1.lstmcuW60000.Items.Insert(j, "65," + svmk[5]);
-                    svm = Convert.ToInt32(svmk[5]);    //svsel (0 = 480,1440,,,)  (1 = 0,960,,,)
-                    svm %= 2160;
+                    // 2025/2/17 魔改 解決威創 黑線延遲問題
+                    svm = Convert.ToInt32(svmk[5]) / 540 * 12968; ;    //svsel (0 = 480,1440,,,)  (1 = 0,960,,,)
+                    //svm %= 2160;
                     Form1.lstmcuW60000.Items.Insert(j, "65," + svm.ToString());
                     svs = "  R65," + svmk[5] + "-";
 

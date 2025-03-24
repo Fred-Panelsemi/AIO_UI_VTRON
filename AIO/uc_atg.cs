@@ -2513,6 +2513,7 @@ namespace AIO
                     Regex.Replace(value, " ", ",");
                     string[] Svss = value.Split(',');
                     if (Svss.Length != 3) { return; }
+                    if (Svss.Length != 3) { return; }
                     else
                     {
                         if (Svss[0] == "" || Svss[1] == "" || Svss[2] == "") { return; }

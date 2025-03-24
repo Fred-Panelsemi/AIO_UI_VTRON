@@ -9949,7 +9949,7 @@ namespace AIO
                 uc_atg.lstget.Items.Add(" -->  mCM603(" + svg1 + ") " + strC[svc].Substring(0, 1) + "Lv check fail，" + SvDefaultMsr[svc, 0].Lv + " > " + string.Format("{0:#0.0####}", (mvars.UUT.DLvLimit + mvars.UUT.DLvTolplus)) + " cd/m^2");
                 uc_atg.lstget.TopIndex = uc_atg.lstget.Items.Count - 1;
                 funSaveLogs(" " + DateTime.Now + " (" + mvars.ATGerr + ")   ID:" + mvars.UUT.ID + "，mCM603(" + svg1 + ") " + strC[svc].Substring(0, 1) + "Lv check fail，" + SvDefaultMsr[svc, 0].Lv + " > " + string.Format("{0:#0.0####}", (mvars.UUT.DLvLimit + mvars.UUT.DLvTolplus)) + " cd/m^2");
-                goto ExNovaAGMA;
+                //goto ExNovaAGMA;
             }
             #endregion pre-measure
 
